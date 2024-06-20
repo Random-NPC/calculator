@@ -12,21 +12,22 @@ body {
 
 .calc-body {
   display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: flex-start;
+  margin-bottom: 5px;
   flex-wrap: wrap;
-  width: 250px;
-  height: 500px;
-  border-radius: 15px;
+  width: 350px;
+  height: 550px;
   border: 2px solid black;
-  background-color: black;
+  background-color: #0a0a23;
 }
 button {
-  width: 60px;
-  height: 50px;
-  color: white;
-  background-color: gray;
+  margin-top: 5px;
+  width: 80px;
+  height: 61.9999px;
+  color: black;
+  background-color: rgb(23, 156, 210);
 }
 .buffer {
   display: flex;
@@ -34,15 +35,15 @@ button {
   justify-content: flex-end;
   height: 100px;
   border: 2px solid black;
-  border-radius: 15px;
   color: white;
-  width: 300px;
+  width: 350px;
+  margin: 7px;
   flex-grow: 0;
   overflow: hidden;
   background-color: gray;
 }
 button {
-  border-radius: 100px;
+  border: 2px solid black;
   margin-top: 18px;
   font-size: 20px;
 }
@@ -69,6 +70,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(225, 127, 0);
-  color: white;
+  background-color: rgb(255, 127, 23);
+  color: Black;
 }
