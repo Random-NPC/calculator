@@ -29,6 +29,9 @@ button {
   color: black;
   background-color: rgb(23, 156, 210);
 }
+button::disabled {
+  background-color: #ffffff;
+}
 .buffer {
   display: flex;
   align-items: center;
@@ -72,4 +75,9 @@ button {
   justify-content: center;
   background-color: rgb(255, 127, 23);
   color: Black;
+}
+
+.dissapear {
+  width: 1px;
+  height: 1px;
 }
